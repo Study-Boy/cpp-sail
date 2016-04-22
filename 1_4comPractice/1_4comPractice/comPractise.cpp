@@ -8,25 +8,25 @@
 #include <string>
 using namespace std;
 
-int getMaxorMin(int* arr, int count, bool inMax){
-	int temp = arr[0];
-	if(inMax){
-		for(int i=1;i<count;i++){
-			if(temp<arr[i]){
-				temp = arr[i];
+namespace compA{
+	int getMaxorMin(int* arr, int count, bool inMax){
+		int temp = arr[0];
+		if(inMax){
+			for(int i=1;i<count;i++){
+				if(temp<arr[i]){
+					temp = arr[i];
+				}
 			}
 		}
-	}
-	else{
-		for(int i=1;i<count;i++){
-			if(temp>arr[i]){
-				temp = arr[i];
+		else{
+			for(int i=1;i<count;i++){
+				if(temp>arr[i]){
+					temp = arr[i];
+				}
 			}
-		}
+		}	
+		return temp;
 	}
-	
-	return temp;
-
 }
 
 int main(void){
@@ -37,7 +37,7 @@ int main(void){
 	cin >> isMax;
 
 	int val;
-	val = getMaxorMin(arr1,sizeof(arr1)/sizeof(int),isMax);
+	val = compA::getMaxorMin(arr1,sizeof(arr1)/sizeof(int),isMax);
 	string p;
 	p = (true==isMax) ?  "Max: " : "Min: " ;
 	cout << p  << val << endl;
