@@ -17,5 +17,10 @@ using namespace std;
 ************************************************/
 
 int main(void){
+	Teacher t1("Merry", 12, 120);
+	cout << t1.getName() << " " << t1.getAge() << " " << t1.getMax()
+		<< endl;
 
+	system("pause");
+	return 0;
 }
