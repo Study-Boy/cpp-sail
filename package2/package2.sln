@@ -5,6 +5,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "package2", "package2\packag
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2_10objectMember", "2_10objectMember\2_10objectMember.vcxproj", "{F4F863D9-54C0-4A91-9A46-5A5F7C6E679F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2_11deepAndShallowCopy", "2_11deepAndShallowCopy\2_11deepAndShallowCopy.vcxproj", "{74858696-FABB-42D3-94B1-E524DEB925BD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -19,6 +21,10 @@ Global
 		{F4F863D9-54C0-4A91-9A46-5A5F7C6E679F}.Debug|Win32.Build.0 = Debug|Win32
 		{F4F863D9-54C0-4A91-9A46-5A5F7C6E679F}.Release|Win32.ActiveCfg = Release|Win32
 		{F4F863D9-54C0-4A91-9A46-5A5F7C6E679F}.Release|Win32.Build.0 = Release|Win32
+		{74858696-FABB-42D3-94B1-E524DEB925BD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{74858696-FABB-42D3-94B1-E524DEB925BD}.Debug|Win32.Build.0 = Debug|Win32
+		{74858696-FABB-42D3-94B1-E524DEB925BD}.Release|Win32.ActiveCfg = Release|Win32
+		{74858696-FABB-42D3-94B1-E524DEB925BD}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
